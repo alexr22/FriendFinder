@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Survey</title>
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+<!-- 	<script src="app/routing/html-routes.js"></script>
+ --></head>
+<body>
+	<div class="container">
+		<div class="row" id="header" style="border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:lightgrey"><h1>Survey Questions</h1>
+		</div>
+		<div class="row"><h2 style="margin-bottom:0px">About You</h2>
+		</div>
+
+		<div class="row"><h3 style="padding-bottom:0px">Name (required)</h3>
+		</div><input type="text" name="name" id="name1">
+
+
+		<div class="row" style="border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:lightgrey"><h3>Link to photo image (required)</h3><input type="text" name="photo" id="photo" style="margin-bottom:20px"></div>
+
+
+		<h2 class="questNum">Question 1</h2><h3>I would much rather do something outside than inside.</h3>
+		<div class="row" id="quest1">
+			<label class="radio-inline quest1"><input type="radio" name="optradio1" value="1">1 (strongly disagree)</label>
+			<label class="radio-inline quest1"><input type="radio" name="optradio1" value="2">2 (moderately disagree)</label>
+			<label class="radio-inline quest1"><input type="radio" name="optradio1" value="3">3 (neutral)</label>
+			<label class="radio-inline quest1"><input type="radio" name="optradio1" value="4">4 (moderately agree)</label>
+			<label class="radio-inline quest1"><input type="radio" name="optradio1" value="5">5 (strongly agree)</label>
+		</div>
+		<h2 class="questNum">Question 2</h2><h3>I would rather watch a movie than go to the club.</h3>
+		<div class="row" id="quest2">
+			<label class="radio-inline quest2"><input type="radio" name="optradio2" value="1">1 (strongly disagree)</label>
+			<label class="radio-inline quest2"><input type="radio" name="optradio2" value="2">2 (moderately disagree)</label>
+			<label class="radio-inline quest2"><input type="radio" name="optradio2" value="3">3 (neutral)</label>
+			<label class="radio-inline quest2"><input type="radio" name="optradio2" value="4">4 (moderately agree)</label>
+			<label class="radio-inline quest2"><input type="radio" name="optradio2" value="5">5 (strongly agree)</label>
+		</div>
+		<h2 class="questNum">Question 3</h2><h3>I like to watch sports</h3>
+		<div class="row" id="quest3">
+			<label class="radio-inline quest3"><input type="radio" name="optradio3" value="1">1 (strongly disagree)</label>
+			<label class="radio-inline quest3"><input type="radio" name="optradio3" value="2">2 (moderately disagree)</label>
+			<label class="radio-inline quest3"><input type="radio" name="optradio3" value="3">3 (neutral)</label>
+			<label class="radio-inline quest3"><input type="radio" name="optradio3" value="4">4 (moderately agree)</label>
+			<label class="radio-inline quest3"><input type="radio" name="optradio3" value="5">5 (strongly agree)</label>
+		</div>
+		<h2 class="questNum">Question 4</h2><h3>I like to drink coffee.</h3>
+		<div class="row" id="quest4">
+			<label class="radio-inline quest4"><input type="radio" name="optradio4" value="1">1 (strongly disagree)</label>
+			<label class="radio-inline quest4"><input type="radio" name="optradio4" value="2">2 (moderately disagree)</label>
+			<label class="radio-inline quest4"><input type="radio" name="optradio4" value="3">3 (neutral)</label>
+			<label class="radio-inline quest4"><input type="radio" name="optradio4" value="4">4 (moderately agree)</label>
+			<label class="radio-inline quest4"><input type="radio" name="optradio4" value="5">5 (strongly agree)</label>
+		</div>
+		<h2 class="questNum">Question 5</h2><h3>I would rather hang out with a small group of friends than a big one.</h3>
+		<div class="row" id="quest5">
+			<label class="radio-inline quest5"><input type="radio" name="optradio5" value="1">1 (strongly disagree)</label>
+			<label class="radio-inline quest5"><input type="radio" name="optradio5" value="2">2 (moderately disagree)</label>
+			<label class="radio-inline quest5"><input type="radio" name="optradio5" value="3">3 (neutral)</label>
+			<label class="radio-inline quest5"><input type="radio" name="optradio5" value="4">4 (moderately agree)</label>
+			<label class="radio-inline quest5"><input type="radio" name="optradio5" value="5">5 (strongly agree)</label>
+		</div>
+		<h2 class="questNum">Question 6</h2><h3>I like to talk about my problems with other people.</h3>
+		<div class="row" id="quest6">
+			<label class="radio-inline quest6"><input type="radio" name="optradio6" value="1">1 (strongly disagree)</label>
+			<label class="radio-inline quest6"><input type="radio" name="optradio6" value="2">2 (moderately disagree)</label>
+			<label class="radio-inline quest6"><input type="radio" name="optradio6" value="3">3 (neutral)</label>
+			<label class="radio-inline quest6"><input type="radio" name="optradio6" value="4">4 (moderately agree)</label>
+			<label class="radio-inline quest6"><input type="radio" name="optradio6" value="5">5 (strongly agree)</label>
+		</div>
+		<h2 class="questNum">Question 7</h2><h3>I like to play video games.</h3>
+		<div class="row" id="quest7">
+			<label class="radio-inline quest7"><input type="radio" name="optradio7" value="1">1 (strongly disagree)</label>
+			<label class="radio-inline quest7"><input type="radio" name="optradio7" value="2">2 (moderately disagree)</label>
+			<label class="radio-inline quest7"><input type="radio" name="optradio7" value="3">3 (neutral)</label>
+			<label class="radio-inline quest7"><input type="radio" name="optradio7" value="4">4 (moderately agree)</label>
+			<label class="radio-inline quest7"><input type="radio" name="optradio7" value="5">5 (strongly agree)</label>
+		</div>
+		<h2 class="questNum">Question 8</h2><h3>I would rather live somewhere cold than warm.</h3>
+		<div class="row" id="quest8">
+			<label class="radio-inline quest8"><input type="radio" name="optradio8" value="1">1 (strongly disagree)</label>
+			<label class="radio-inline quest8"><input type="radio" name="optradio8" value="2">2 (moderately disagree)</label>
+			<label class="radio-inline quest8"><input type="radio" name="optradio8" value="3">3 (neutral)</label>
+			<label class="radio-inline quest8"><input type="radio" name="optradio8" value="4">4 (moderately agree)</label>
+			<label class="radio-inline quest8"><input type="radio" name="optradio8" value="5">5 (strongly agree)</label>
+		</div>
+		<h2 class="questNum">Question 9</h2><h3>Donald Trump is a good presidential candidate.</h3>
+		<div class="row" id="quest9">
+			<label class="radio-inline quest9"><input type="radio" name="optradio9" value="1">1 (strongly disagree)</label>
+			<label class="radio-inline quest9"><input type="radio" name="optradio9" value="2">2 (moderately disagree)</label>
+			<label class="radio-inline quest9"><input type="radio" name="optradio9" value="3">3 (neutral)</label>
+			<label class="radio-inline quest9"><input type="radio" name="optradio9" value="4">4 (moderately agree)</label>
+			<label class="radio-inline quest9"><input type="radio" name="optradio9" value="5">5 (strongly agree)</label>
+		</div>
+		<h2 class="questNum">Question 10</h2><h3>Hillary Clinton is a good presidential candidate.</h3>
+		<div class="row" id="quest10">
+			<label class="radio-inline quest10"><input type="radio" name="optradio10" value="1">1 (strongly disagree)</label>
+			<label class="radio-inline quest10"><input type="radio" name="optradio10" value="2">2 (moderately disagree)</label>
+			<label class="radio-inline quest10"><input type="radio" name="optradio10" value="3">3 (neutral)</label>
+			<label class="radio-inline quest10"><input type="radio" name="optradio10" value="4">4 (moderately agree)</label>
+			<label class="radio-inline quest10"><input type="radio" name="optradio10" value="5">5 (strongly agree)</label>
+		</div>
+
+	</div>
+	<button type="submit" onclick="checked()" class="btn btn-primary btn-lg col-lg-12" id="submit" style="margin:20px"><span class="glyphicon glyphicon-pencil"></span>Submit</button>
+	<script>
+
+	function checked() {
+		// console.log(document.getElementsByClassName("quest10").checked);
+		var newScores = [parseInt($('#quest1 input:radio:checked').val()), parseInt($('#quest2 input:radio:checked').val()), parseInt($('#quest3 input:radio:checked').val()), parseInt($('#quest4 input:radio:checked').val()), parseInt($('#quest5 input:radio:checked').val()), parseInt($('#quest6 input:radio:checked').val()), parseInt($('#quest7 input:radio:checked').val()), parseInt($('#quest8 input:radio:checked').val()), parseInt($('#quest9 input:radio:checked').val()), parseInt($('#quest10 input:radio:checked').val())];
+
+
+
+		var newName = $("#name1").val().trim();
+		var newPhoto = $("#photo").val().trim();
+		for (var i=0; i<newScores.length; i++) {
+			if (newScores[i] !== 1 && newScores[i] !== 2 && newScores[i] !== 3 && newScores[i] !== 4 && newScores[i] !== 5) {
+				alert("Please answer all questions!");
+				return
+			}else if
+				(newName == "" || newPhoto == "") {
+				alert("Be sure to enter a name and picture link!");
+				return
+			}else
+
+
+			var newProfile = {
+				name: newName,
+				photo: newPhoto,
+				scores: newScores
+			}
+
+
+		}
+		var currentURL = window.location.origin;
+		
+
+		$.post(currentURL + '/api/friends', newProfile)
+
+		
+		return false
+	}
+
+
+
+	</script>
+	
+</body>
+</html>
